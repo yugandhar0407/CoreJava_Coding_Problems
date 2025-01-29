@@ -22,9 +22,9 @@ public class FibonacciInJava {
 
 			System.out.print(i + ")" + sum + " ");
 			// here the main logic starts
-			a = b;
-			b = sum;
-			sum = a + b;
+			a = b; //then a = 1 
+			b = sum; // then b = 0
+			sum = a + b; // a + b = 1 + 0 = 1
 		}
 
 	}
